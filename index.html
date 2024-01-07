@@ -16,8 +16,8 @@
   </head>
   <body>
     <header class="header">
-      <div class="header-inner">
-        <h1 class="header-logo">
+      <div class="header__inner">
+        <h1 class="header__logo">
           <a href="/" title="Cloud HR">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -75,40 +75,44 @@
             </svg>
           </a>
         </h1>
-        <nav class="header-nav">
-          <button
-            id="js-hamburger"
-            type="button"
-            class="hamburger"
-            aria-controls="navigation"
-            aria-expanded="false"
-            aria-label="メニューを開く"
-          >
-            <span class="hamburger__line"></span>
-            <span class="hamburger__text"></span>
-          </button>
-          <ul class="header-nav-list">
-            <li class="header-nav-item">
-              <a href="#" class="arrow"><i class=""></i> 特徴</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#" class="arrow"><i class=""></i> 機能一覧</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#" class="arrow"><i class=""></i> 導入事例</a>
-            </li>
-            <li class="header-nav-item">
-              <a href="#" class="arrow"><i class=""></i> FAQ</a>
-            </li>
-          </ul>
-          <div class="header-nav-button">
-            <a href="#" class="button">今すぐお問い合わせ</a>
-          </div>
-        </nav>
-        <div class=""></div>
+
+        <button
+          id="js-hamburger"
+          type="button"
+          class="hamburger"
+          aria-controls="navigation"
+          aria-expanded="false"
+          aria-label="メニューを開く"
+        >
+          <span class="hamburger__line"></span>
+          <span class="hamburger__text"></span>
+        </button>
+
+        <div class="header__nav__area js-nav-area" id="navigation">
+          <nav class="header__nav">
+            <ul class="header__nav__list">
+              <li class="header__nav__item">
+                <a href="#">特徴</a>
+              </li>
+              <li class="header__nav__item">
+                <a href="#">機能一覧</a>
+              </li>
+              <li class="header__nav__item">
+                <a href="#">導入事例</a>
+              </li>
+              <li class="header__nav__item">
+                <a href="#">FAQ</a>
+              </li>
+            </ul>
+            <div class="header__nav__button">
+              <a href="#" class="button">今すぐお問い合わせ</a>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
-    <div class="">
+
+    <!-- <div class="">
       <div class="">
         <h1 class="">
           <img src="img/text-cloud-hr.png" alt="Cloud HR" class="" />
@@ -126,9 +130,9 @@
       <div class="">
         <img src="img/img-hero.png" alt="" srcset="" />
       </div>
-    </div>
+    </div> -->
 
-    <div class="">
+    <!-- <div class="">
       <div class="">
         <h2 class="">こんな<span class="">お悩み</span>ありませんか？</h2>
         <ul class="">
@@ -152,9 +156,9 @@
           </li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
-    <div class="">
+    <!-- <div class="">
       <div class="">
         <h2 class="">Future</h2>
         <p>Cloud HRの特徴</p>
@@ -193,9 +197,13 @@
           </li>
         </ul>
       </div>
-    </div>
-    <header>header</header>
-    <main>main</main>
+    </div> -->
+    <main style="height: 1000px; background-color: blue; margin: 2rem">
+      main
+    </main>
     <footer>footer</footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
